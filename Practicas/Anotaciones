@@ -1,0 +1,15 @@
+Ejercicio 1:
+
+Operador (!!) :  se utiliza para acceder al elemento en una posición específica de una lista.
+
+lista = [1, 2, 3, 4, 5] -> tercerElemento = lista !! 2
+
+Concat : Foldable t es una restricción de clase que indica que t debe ser un tipo que puede ser "plegado" o recorrido como una colección, lo que implica que hay una estructura de datos específica que se puede atravesar de manera ordenada (como una lista o un árbol, por ejemplo).
+
+concat [[1, 2, 3], [4, 5], [6, 7, 8]] -> [1, 2, 3, 4, 5, 6, 7, 8]
+
+Elem: La función elem en Haskell se utiliza para verificar si un elemento dado está presente en una lista dada. Toma un valor y una lista como argumentos y devuelve True.
+
+elem 3 [1, 2, 3, 4, 5] -> True
+
+
