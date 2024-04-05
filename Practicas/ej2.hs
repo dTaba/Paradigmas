@@ -93,3 +93,6 @@ negacionAB :: AB Bool -> AB Bool
 negacionAB Nil = Nil
 negacionAB (Bin izq valor der) = Bin (negacionAB izq) (not valor) (negacionAB der)
 
+productoAB :: AB Int -> Int
+productoAB Nil = 1
+productoAB (Bin izq valor der) = (valor * izq * der) + productoAB izq + productoAB der
