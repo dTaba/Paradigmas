@@ -13,3 +13,17 @@ Elem: La función elem en Haskell se utiliza para verificar si un elemento dado 
 elem 3 [1, 2, 3, 4, 5] -> True
 
 
+Maybe: 
+
+edad :: Maybe Int
+edad = Just 30
+
+edad :: Maybe Int
+edad = Nothing
+
+Either:
+
+dividir :: Int -> Int -> Either String Int
+dividir _ 0 = Left "No se puede dividir por cero."
+dividir x y = Right (x `div` y)
+
